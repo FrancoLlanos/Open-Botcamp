@@ -1,0 +1,25 @@
+h1{
+    color:rgb(255, 0, 0);
+}
+/* perro negro */
+p{
+    color: blue;
+    font-size: 30pt;
+}
+#noticia-1{
+    color: green;
+    font - size: s14px;s
+}
+#noticia-2{
+    color: darkmagenta
+}
+.encabezado{
+    font-size: 20pt;
+    text-transform: uppercase;
+}
+*.warning{
+    color: red
+}
+.autor, .fecha, .ubicacion{
+    text-decoration: underline;
+}

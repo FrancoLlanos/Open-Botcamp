@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.btn-tool {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: firebrick;
+    color: darkkhaki;
+    border-bottom: 2px solid blue;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.btn-tool:hover {
+    background-color: red;
+}
+
+.btn-tool:hover::before {
+    content: "Debes bañarte";
+}
+
+.tool {
+    position: absolute;
+    visibility: hidden;
+    top: -40px;
+    left: -0.1%;
+    transform: translateX(25%);
+    top: 100px;
+    color: gray;
+    background-color: darkslategray;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.btn-tool:hover .tool {
+    visibility: visible;
+}
+
+.tool::before {
+    content: '';
+
+}
+
+.tutorial {
+    border: solid 5px transparent;
+    border-top-color: black;
+}

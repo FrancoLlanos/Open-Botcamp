@@ -1,0 +1,21 @@
+.contenedor {
+    background-color: aquamarine;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    min-height: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: red;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.item1 {
+    align-self: stretch;
+}

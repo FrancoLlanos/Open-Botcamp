@@ -1,0 +1,25 @@
+.div-1, .div-2 {
+    background-color: brown;
+}
+
+.span-1 {
+    background-color: aquamarine;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.span-2 {
+    background-color: aquamarine;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    float: right;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    float: inline-start;
+}

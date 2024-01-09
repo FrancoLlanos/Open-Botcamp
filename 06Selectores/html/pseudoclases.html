@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudo-Clases</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .hover{
+            width: 300px;
+            height: 100px;
+            background-color: red;
+        }
+        .hover:hover{ /* se activan cuando el raton pasa por arriba */
+            background-color: blue;
+        }
+        .listado {
+            padding: 15px;
+            background-color: greenyellow;
+        }
+        .listado p:first-child {
+            color: red;
+        }
+        a:link{ /* hace referencia a los links no visitados*/
+            color:deeppink
+        }
+        a:visited{  /* hace referencia a los links visitados*/
+            color:aqua
+        }
+        a:hover{
+            color:forestgreen
+        }
+        a:active{
+            color:pink
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatum 
+        dolor blanditiis, reprehenderit aut amet excepturi illo magni ipsam expedita 
+        nemo beatae labore hic tempora vitae eveniet velit vel rem.
+        </p>
+    </div>
+    <div class="listado">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="https://www.google.com.ar" target="_blank">Enlace a Google</a>
+        <a href="https://www.youtube.com.ar" target="_blank">Enlace a youtube</a>
+    </div>
+    </body>
+</html>

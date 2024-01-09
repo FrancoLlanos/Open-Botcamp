@@ -1,0 +1,43 @@
+.colores {
+    color: black
+}
+.color-hexadecimal {
+    color: #DBD56E
+}
+.color-rgb {
+    color: rgb(200, 50, 10)
+}
+.color-rgba {
+    color: rgba(200, 50, 10, 0.4)
+}
+.fondo {
+    background-color: red;
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg") ;
+    background-position: center top ;
+}
+.fondo-interno {
+    background-color: red;
+    background-image: url("imagenes/descarga.jpg") ;
+    background-position:  top top;
+}
+
+/* Tamaños */
+
+.ancho {
+    color: brown;
+    width: 1000px;
+}
+
+.alto {
+    color:#DBD56E;
+    height: 100px;
+    width: 2200;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
+    padding: 10px 20px 30px 40px;
+    margin: 20px;
+}

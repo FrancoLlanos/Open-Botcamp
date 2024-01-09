@@ -1,0 +1,56 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: #00ffff;
+    transition: transform 1s ease-in 2s;
+}
+
+.padre:hover .hijo {
+    transform: translatex(100%);
+    background-color: brown;
+}
+
+.abuelo {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+}
+
+.nieto {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+}
+
+.abuelo:hover .nieto {
+    animation: animacion 4s infinite forwards;
+}
+
+@keyframes animacion {
+    0%{
+        background-color: aquamarine;
+        transform: translatex(0%) translate(0%);
+    }
+    25% {
+        background-color: blue;
+        transform: translatey(0%) translatex(100%);
+    }
+    50%{
+        background-color: pink;
+        transform: translatex(100%) translatey(100%);
+    }
+    75% {
+        background-color: red;
+        transform: translatey(100%) translatex(0%);
+    }
+    100%{
+        background-color: black;
+        transform: translatex(0%) translatey(0%);
+    }
+}

@@ -1,0 +1,32 @@
+div {
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+    background-color: chartreuse;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: red;
+}
+
+.absolute {
+    position: absolute;
+    right: 0px;
+    bottom: 30px;
+    background-color: green;
+}
+
+.sticky {
+    background-color: darkblue;
+    color: white;
+    top: 0px;
+}
